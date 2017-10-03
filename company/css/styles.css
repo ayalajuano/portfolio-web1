@@ -1,0 +1,2852 @@
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #d7d7d7;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+}
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#topbar ul li {
+    margin-right: 3%;
+    float: right;
+    display: block;
+}
+#topbar {
+    background-color: #ebebeb;
+    height: 50px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+#meeblogo {
+    float: left;
+    width: 140px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/*------------------------------------------------------------------------------------------------------------topbar */
+
+
+/*------------------------------------------------------------------------------------------------------------Login page */
+
+#topbar #login {
+    width: 100%;
+    line-height: 50px;
+    color: #ec247c;
+    font-family: 'Open Sans Regular', serif;
+}
+#topbar .ciconl {
+    width: 90%;
+    margin-top: 12px;
+    margin-left: 10%;
+}
+
+/*------------------------------------------------------------------------------------------------------------Dashboard*/
+
+#topbar .cicon {
+    margin-top: 12px;
+    margin-left: 10%;
+}
+#topbar .hicon {
+    width: 90%;
+    margin-top: 12px;
+}
+#topbar .uicon {
+    width: 100%;
+}
+#navbar {
+    background: url("../images/1.jpg");
+    width: 100%;
+    height: 159px;
+    border-bottom: 10px solid #148680;
+}
+nav {
+    width: 100%;
+    float: left;
+    margin-top: 99px;
+}
+#navbar ul {
+    font-family: 'Open Sans Semibold', serif;
+}
+#navbar ul .floatleft {
+    margin-left: 8%;
+}
+
+}
+#navbar ul .floatright {
+    margin-right: 200px;
+}
+#navbar li {
+    background: transparent;
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    float: left;
+    margin-left: 11%;
+}
+#navbar li img {
+    width: 18%;
+    margin-right: 0%;
+    float: left;
+    position: relative;
+    top: 9px;
+}
+
+}
+#listleftbtn {
+    float: left;
+    margin-left: 5%;
+}
+
+/*-------------------------- Change the link color to #111 (black) on hover */
+#navbar li:hover {
+    background: -moz-linear-gradient(bottom, rgba(20, 134, 128, 1) 0%, rgba(125, 185, 232, 0) 70%);
+    background: -webkit-linear-gradient(bottom, rgba(20, 134, 128, 1) 0%, rgba(125, 185, 232, 0) 70%);
+    background: linear-gradient(to top, rgba(20, 134, 128, 1) 0%, rgba(125, 185, 232, 0) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#148680', endColorstr='#007db9e8', GradientType=0);
+}
+.barhover {
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+}
+li #listleftbtn:hover+.barhover {
+    left:450px;
+}
+.barhover {
+    position: relative;
+    z-index: 0;
+    height: 10px;
+    left:0px;
+    top: 159px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: #07b396;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease;
+}
+main {
+    float: left;
+    background-color: #fff;
+    min-height: 500px;
+}
+#maindash {
+    padding: 100px 0px 100px 0px;
+}
+.listicons {
+    margin: 0 auto;
+    float: left;
+    padding: 0 50px 0 50px;
+}
+.listicons img {
+    padding-bottom: 12px;
+    width: 140px;
+    margin-left: 31px;
+    -webkit-transition: width 1s, 1s ease-in-out;
+    -moz-transition: width 1s, 1s ease-in-out;
+    -o-transition:width 1s, 1s ease-in-out;
+    transition: width 1s, 1s ease-in-out;
+}
+.listicons img:hover {
+    width:170px;
+    -webkit-transform: translate(-1em, 0);
+    -moz-transform: translate(-1em, 0);
+    -o-transform: translate(-1em, 0);
+    -ms-transform: translate(-1em, 0);
+}
+
+/*------------------------------------------------------------------------------------------------------------main index page */
+#maini {
+    background-color: #fff;
+    background-image: url("../images/logimage.png");
+    background-repeat: no-repeat;
+    background-position: 410px;
+    height: 875px;
+    width: 100%;
+}
+.bubble1 h1 {
+    font-family: 'Open Sans Semibold', serif;
+    font-size: 2.8em;
+}
+#signuptext {
+    float: right;
+}
+#signuppanel {
+    font-family: 'Open Sans Regular', serif;
+    float: left;
+    padding: 72px 0 83px 83px;
+    width: 508px;
+    border-color: red;
+}
+#signuppanel p {
+    margin-top: 50px;
+    line-height: 28px;
+    float: left;
+    font-size: 1.2em;
+    padding-right: 84px;
+    padding-bottom: 23px;
+}
+#signuppanel .linksignup {
+    color:#ec247c;
+}
+#b1 {
+    margin-top: 29px;
+    margin-right: 146px;
+}
+#b2 {
+    position:relative;
+    left:-180px;
+    margin-top: 465px;
+    margin-right: 420px;
+}
+#b3 {
+    margin-top: -37px;
+    margin-right: 63px;
+}
+
+/*------------------------------------------------------------------------------------------------------------main index page */
+
+/*------------------------------------------------------------------------------------------------------------main signup page */
+#mainsign {
+    height: 830px;
+}
+#banner_signtop {
+    float:left;
+    font-family: 'Open Sans Semibold', serif;
+    margin-left: 200px;
+}
+#banner_signbtm {
+    width: 50%;
+    padding: 120px 170px 20px 120px;
+    float:left;
+    font-family: 'Open Sans Semibold', serif;
+    margin-left: 182px;
+    border: 0.50px dashed #7d7e80;
+}
+#signuplink {
+    float: left;
+    font-size: 1em;
+    margin-left: 296px;
+    margin-top: 115px;
+}
+#characterimg {
+    position:relative;
+    top: 165px;
+    float: left;
+    margin-left: 10px;
+}
+#banner_signtop h1 {
+    float: left;
+    font-size: 1.5em;
+    margin-top: 190px;
+    padding-left: 21px;
+}
+#labelsform label {
+    float:left;
+    line-height: 54px;
+    width: 167px;
+    clear: both;
+    text-align: right;
+    font-family: 'Open Sans Semibold', serif;
+}
+#labelsform {
+    float:left;
+}
+.forms {
+    float: left;
+    width: 60%;
+    margin-left: 18px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 8.5px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Open Sans Regular', serif;
+}
+#imgbartool {
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+form action_page.php {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float:left;
+    width:605px;
+}
+#banner_signbtm button {
+    margin-top: 44px;
+    margin-left: 290px;
+}
+#banner_signbtm h3 {
+    font-family: 'Open Sans SemiBold', serif;
+    font-size: 0.9em;
+    margin-top: 17px;
+    text-align: center;
+    margin-left: 108px;
+    color:#ec247c;
+}
+
+/*main signup page */
+
+/*main login page */
+#mainl {
+    height: 740px;
+}
+#banner_signbtm_login {
+    width: 50%;
+    padding: 120px 170px 20px 120px;
+    float:left;
+    font-family: 'Open Sans Semibold', serif;
+    margin-left: 182px;
+    border: 0.50px dashed #7d7e80;
+}
+#banner_signbtm_login button {
+    margin-top: 70px;
+    margin-left: 290px;
+}
+#banner_signbtm_login h3 {
+    font-family: 'Open Sans SemiBold', serif;
+    font-size: 0.9em;
+    margin-top: 17px;
+    text-align: center;
+    margin-left: 60px;
+    color:#ec247c;
+}
+
+/*main login page */
+footer {
+    float: left;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 95px;
+    background-color: #ebebeb;
+    width: 100%;
+}
+#meeblogof {
+    margin-left: 20px;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    height: 48px;
+}
+footer #copyrighttext {
+    font-size:1.2em;
+    font-family: 'Open Sans Light', serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    color:#5d5d5d;
+}
+
+/*------------------------------------------------------------------------------------------------------------profile*/
+#mainprofile {
+    padding-top: 70px;
+    background-color: #fff;
+    height: 635px;
+}
+#profinfopanel {
+    margin: 0px auto;
+    width: 970px;
+    height: 495px;
+    text-align: center;
+}
+#profinfopanel #btnnext {
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+#mainnextback {
+    width: 1010px;
+    height: 40px;
+    margin: 0px auto;
+}
+#mainnextback #btnback {
+    float:left;
+    margin-top: 300px;
+}
+#mainnextback h1 {
+    float:left;
+    margin-left: 33.40%;
+    margin-right: 28.7%;
+}
+#mainnextback #mnb2 {
+    float:left;
+    margin-left: 33.40%;
+    margin-right: 31.2%;
+}
+#mainnextback #mnb3 {
+    float: left;
+    margin-left: 24.4%;
+    margin-right: 22.8%;
+}
+#mainnextback #mnb4 {
+    margin-right: 17.7%;
+    float: left;
+    margin-left: 23.4%;
+}
+#mainnextback #btnnext {
+    float:left;
+    position: relative;
+    top: 305px;
+}
+#navbarprof li:hover {
+    background: -moz-linear-gradient(bottom, rgba(20, 134, 128, 1) 0%, rgba(125, 185, 232, 0) 70%);
+    background: -webkit-linear-gradient(bottom, rgba(20, 134, 128, 1) 0%, rgba(125, 185, 232, 0) 70%);
+    background: linear-gradient(to top, rgba(20, 134, 128, 1) 0%, rgba(125, 185, 232, 0) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#148680', endColorstr='#007db9e8', GradientType=0);
+}
+#navbarprof ul {
+    font-family: 'Open Sans Semibold', serif;
+}
+#navbarprof img {
+    position: relative;
+    top: 5px;
+    width: 10%;
+    margin-right: 5%;
+}
+#navbarprof li {
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    margin-left: 0%;
+    width: 25%;
+}
+#circlesnavprof {
+    float:left;
+    margin-left: 80px;
+}
+#panelleft_prof {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+#panelleftbil h3 {
+    margin-top: 30px;
+}
+#logocompany {
+    background: url(../images/iconmeeb.png) no-repeat;
+    font-family: 'Open Sans Regular', serif;
+    height: 297px;
+    width: 297px;
+    text-align: center;
+    border: 4px solid #0bb497;
+    border-radius: 155px;
+    line-height: 300px;
+    font-size: 16px;
+    -webkit-filter: opacity(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: opacity(100%);
+}
+#panelleft_prof p {
+    font-family: 'Open Sans Regular', serif;
+    line-height: 20px;
+    font-size: 15px;
+    width: 297px;
+    margin-top: 10px;
+}
+#panelright_prof {
+    margin: 135px 0px 0px 110px;
+}
+.pallete {
+    font-family: 'Open Sans Regular', serif;
+    height: 40px;
+    width: 170px;
+    border-radius: 20px;
+    background-color: #cccccc;
+    border-left: 50px solid #1a8781;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 10px;
+}
+#panelright_prof p {
+    font-family: 'Open Sans Regular', serif;
+    line-height: 17px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/*---------------------------------------------------------------------profile-------img*/
+#mainprofile h2 {
+    font-family: 'Open Sans Regular', serif;
+    text-align: center;
+}
+#panelleft_profimg {
+    margin-left: 50px;
+    margin-top: 90px;
+}
+#multiplebar {
+    font-family: 'Open Sans Regular', serif;
+    background: url(../images/bannerprofile.png) no-repeat;
+    margin-top: 95px;
+    margin-left: 67px;
+    line-height: 200px;
+    width: 845px;
+    height: 205px;
+    background-image: #ebebeb;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------profileuser*/
+#supbar_user {
+    float: left;
+    color: black;
+    border: 1px solid #ebebeb;
+    width: 873px;
+    margin-left: 18px;
+    height: 50px;
+}
+#supbar_user li {
+    font-family: 'Open Sans Regular', serif;
+    display: block;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 55px 0px 95px;
+    font-size: 25px;
+    line-height: 50px;
+}
+#containerprof_img {
+    background-color: #ebebeb;
+    width: 875px;
+    margin-left: 18px;
+    height: 360px;
+    float: left;
+}
+#mobileimg {
+    background-image: url(../images/mobile.png);
+    height: 343px;
+    width: 292px;
+    margin-top: 16px;
+    margin-left: 291px;
+}
+#tabletimg {
+    background-image: url(../images/tablet.png);
+    height: 343px;
+    width: 853px;
+    margin-top: 17px;
+    margin-left: 13px;
+    display: none;
+}
+#desktopimg {
+    background-image: url(../images/tablet.png);
+    height: 323px;
+    width: 853px;
+    margin-top: 37px;
+    margin-left: 11px;
+    display: none;
+}
+#p_user {
+    font-family: 'Open Sans Semibold', serif;
+    font-size: 13px;
+    line-height: 14px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 26px;
+}
+#profinfopanel .forms {
+    margin-top: 17px;
+}
+
+/*------------------------------------------------------------------------------------profileteam*/
+#p1_team {
+    font-size: 13px;
+    line-height: 17px;
+    font-family: 'Open Sans Semibold', serif;
+}
+#p2_team {
+    float: left;
+    margin-top: 152px;
+    margin-left: 125px;
+    font-family: 'Open Sans Semibold', serif;
+}
+#forms_team {
+    float: left;
+    width: 435px;
+    margin-left: 18px;
+    margin-top: 138px;
+}
+#forms_team p {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 13px;
+}
+#profinfopanel .btnnextbl {
+    margin-top: 137px;
+    margin-left: 10px;
+    float: left;
+}
+#profinfopanel h3 {
+    float: left;
+    clear: both;
+    margin-top: 40px;
+    margin-left: 410px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans Semibold', serif;
+}
+#profinfopanel table {
+    border-collapse: collapse;
+    width: 875px;
+    margin-left: 40px;
+    color: black;
+}
+#profinfopanel th, td {
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+#profinfopanel th .fa {
+    padding-left: 10px;
+    color: #5a5a5a;
+}
+
+/*---------------------------------------------------------gral sections*/
+
+/*---------------------*/
+#maindash, .innermaindash, #innermaindashsb, #mainprofile, #maincommunity, #mainbilling, #innermaindashcamp {
+    width: 100%;
+}
+.circlenav, #circlemarginbil, #circlenavcom, #circlenavcom2, .circlenavprof {
+    position: relative;
+    z-index: 1;
+}
+
+/*---------------------*/
+.gralpanel {
+    float: left;
+    padding: 30px 30px 10px 39px;
+    min-width: 85%;
+    min-height: 500px;
+    margin-left: 5%;
+}
+.gralpanel h2 {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 1.5em;
+    text-align: center;
+    clear: both;
+}
+.gralpanel p {
+    text-align:center;
+}
+.innermaindash h1 {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 2em;
+    text-align: center;
+}
+.innermaindash #buttonssolo {
+    margin: 200px 0 0 470px;
+}
+.innermaindash #buttons {
+    margin: 200px 0 0 420px;
+}
+#innersubtitle {
+    font-family: 'Open Sans Regular', serif;
+    margin-top: 10px;
+}
+
+/* SEARCH BAR */
+#sbar {
+    width:92%;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding:10px;
+}
+#linesbar {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    margin-top: 14px;
+}
+#sbar input {
+    float: left;
+    margin-left: 50px;
+    border: 1px solid #ebebeb;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+    background-color: white;
+    height: 20px;
+    width: 581px;
+}
+#sbar i {
+    background-color: white;
+    float: left;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+.sbarbtn {
+    font-family: 'Open Sans Regular', serif;
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    min-width: 130px;
+    height: 22px;
+    border: 1px solid #ebebeb;
+    border-radius: 50px;
+    margin-top: 3px;
+}
+#Totalpanel {
+    float: left;
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    background-color: #ebebeb;
+    padding-top: 30px;
+    text-align: center;
+    }
+
+/*---------------------------tables*/
+.topth {
+    background-color: #f3f3f3;
+    font-family: 'Open Sans Semibold', serif;
+}
+.thlight {
+    background-color: white;
+    font-family: 'Open Sans regular', serif;
+}
+.thdark {
+    background-color: #f9f9f9;
+    font-family: 'Open Sans regular', serif;
+}
+.thbldark {
+    background-color: #d0ebe6;
+    font-family: 'Open Sans regular', serif;
+}
+.thbllight {
+    background-color: #d8f3ee;
+    font-family: 'Open Sans regular', serif;
+}
+
+/*---------------------------tables*/
+.innermaindash {
+    padding: 70px 0px 100px 0px;
+}
+
+/*--------------------------newlists*/
+#droplists {
+    float: left;
+    width: 200px;
+}
+.btndrop_list {
+    background-color: white;
+    font-family: 'Open Sans regular', serif;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 177px;
+    color: #a9a9a9;
+    padding: 8.5px 20px;
+    text-align: left;
+    margin: 4px 0 3px 10px;
+}
+.btndrop_list .fa {
+    margin-left: 25px;
+}
+#droplists .dropdown-content p {
+    margin-left: 10px;
+    width: 175px;
+    background-color: white;
+}
+#droplists .dropdown-content p:hover {
+    background-color: #ebebeb;
+}
+#btn_newlist {
+    margin: 70px 0px 0px 400px;
+}
+#formsdrops_newlist {
+    margin-top: 50px;
+    height: 230px;
+}
+#addfields_newlist {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: none;
+    width: 435px;
+    color: #a9a9a9;
+    text-align: left;
+    margin: 0px 0 0px 184px;
+}
+#addfield_newlist {
+    font-family: 'Open Sans regular', serif;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 147px;
+    color: black;
+    padding: 2PX;
+    text-align: center;
+    margin: 0px 0 0px 140px;
+    position: relative;
+    top: 10px;
+}
+#p1newlist {
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: 'Open Sans Semibold', serif;
+}
+
+/*--------------------------newinnerlists */
+#Totalpanel h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+#boxtittle {
+    float: left;
+    margin-left: 32px;
+    margin-top: 30px;
+    width: 1207px;
+    height: 20px;
+    background-color: white;
+    border:1px solid #ebebeb;
+    border-bottom: none;
+}
+#tittlebox_innerlist {
+    float: left;
+    margin-left: 522px;
+    margin-top: -17px;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    border: 1px solid #ebebeb;
+}
+#boxtittle i {
+    position: relative;
+    top: 19px;
+    left: -40px;
+}
+#innerlist table {
+    width: 1210px;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+}
+#innerlist th {
+    height: 60px;
+    padding: 20px 110px 20px 110px;
+    text-align: center;
+    font-size: 14px;
+}
+#innerlist {
+    height: 700px;
+}
+#innerlist .grey {
+    position: relative;
+    top: 12px;
+}
+.lndark {
+    background-color: #fbfbfb;
+    font-family: 'Open Sans regular', serif;
+}
+.lndark_borders {
+    background-color: #fbfbfb;
+    font-family: 'Open Sans regular', serif;
+    border-left: 2px solid #efefef;
+    border-right: 2px solid #efefef;
+}
+.lnlight {
+    background-color: white;
+    font-family: 'Open Sans regular', serif;
+}
+#innerlist tr {
+    border: 0px solid #f9f9f9;
+}
+#innerlist tr:hover {
+    border: 2px solid #ebebeb;
+}
+
+/*--------------------------addcontacts */
+#tab_addcontacts {
+    clear:both;
+    margin: 20px auto;
+}
+#tab_addcontacts th, td {
+    background-color: white;
+}
+#tab_addcontacts .lndark, .lndark_borders {
+    height: 70px;
+}
+#innerlisttab {
+    border-collapse: collapse;
+    width: 93%;
+    margin-left: 40px;
+    color: black;
+}
+.gralpanel th, td {
+    width: 230px;
+    height: 100px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+#listcontacts {
+    width: 100%;
+}
+#listcontacts th, td {
+    width: 230px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.gralpanel th .fa {
+    padding-left: 10px;
+    color: #5a5a5a;
+}
+#innermaindashsb h1 {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 2em;
+    text-align: center;
+}
+#innermaindashsb {
+    padding: 0px 0px 100px 0px;
+}
+#mainnextbackmes #btnnext {
+    float: left;
+    margin-left: 1092px;
+    position: relative;
+    top: 110px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------messages sections*/
+
+/*---------------------------------------------------------inner message*/
+textarea {
+    width: 94%;
+    border-radius: 10px;
+    padding: 25px;
+    color: #bcbcbc;
+    font-family: 'Open Sans Regular', serif;
+}
+#messagenav {
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fbfbfb;
+}
+#messagenav li {
+    color:#148680;
+    padding: 10px 20px 10px 20px;
+}
+#messagenav a:hover {
+    color:#ec297b;
+}
+#messagenav p {
+    margin-top: 10px;
+}
+#messagenav #listleftbtn {
+    float: left;
+    margin-left:20px;
+}
+#messagenav .fa-plus {
+    margin-top: 10px;
+}
+#messagenav button {
+    margin-top: 15px;
+    margin-right: 50px;
+    float: right;
+}
+
+}
+
+/*---------------------------------------------------------your messages*/
+#yourmestab {
+    clear: both;
+}
+
+/*---------------------------------------------------------your campaigns*/
+#innermaindashcamp h1 {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 2em;
+    text-align: center;
+}
+.gralpanelcamp {
+    float: left;
+    padding: 30px 20px 10px 20px;
+    min-width: 930px;
+    min-height: 500px;
+    margin: 20px 0px 0px 20px;
+}
+#mainnextbackcamp #btnnext {
+    float: left;
+    margin-left: 925px;
+    position: relative;
+    top: 110px;
+}
+.gralpanelcamp #labelsform label {
+    float: left;
+    line-height: 54px;
+    width: 190px;
+    clear: both;
+    text-align: right;
+    font-family: 'Open Sans Semibold', serif;
+}
+#formscamp {
+    float: left;
+    width: 610px;
+    height: 220px;
+}
+.gralpanelcamp .forms {
+    width: 385px;
+}
+.gralpanelcamp h2 {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 1.5em;
+    text-align: center;
+    clear: both;
+}
+.gralpanelcamp p {
+    text-align:center;
+}
+#leftpanel_camp {
+    float: left;
+    width: 202px;
+    background-color: #ebebeb;
+    padding: 0px 20px 0px 20px;
+    height: 580px;
+}
+.innermaintittlecamp {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 2em;
+    text-align: center;
+    clear: both;
+}
+#leftpanel_camp4 {
+    float: left;
+    width: 202px;
+    background-color: #ebebeb;
+    padding: 0px 20px 0px 20px;
+    height: 720px;
+}
+.stepcamp {
+margin: 30px 0px 30px 0px;
+}
+.stepcamp p {
+    font-size: 20px;
+    font-family: 'OpenSans Regular', serif;
+    text-align: center;
+    color:black;
+}
+.circleleftmenu{
+    margin: 26px 0px 10px 68px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: grey;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'OpenSans Regular', serif;
+}
+.stepcamp .stepline {
+    width: 180px;
+    margin: 15px 0px 10px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: 1px solid grey;
+}
+.circleleftmenu:hover {
+    margin: 26px 0px 10px 68px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    height: 30px;
+    border-radius: 50px;
+    border:2px solid #07b396;
+    background-color: #148680;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'OpenSans Regular', serif;
+}
+.circleleftmenu:hover+p {
+    font-size: 18px;
+    font-family: 'Open Sans Semibold', serif;
+    font-weight: 10px;
+    text-align: center;
+    color: #148680;
+}
+.circleleftmenu:active {
+    margin: 26px 0px 10px 68px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    height: 30px;
+    border-radius: 50px;
+    border:2px solid #07b396;
+    background-color: #148680;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'OpenSans Regular', serif;
+}
+.circleleftmenu:active+p {
+    font-size: 20px;
+    font-family: 'Open Sans Semibold', serif;
+    font-weight: 10px;
+    text-align: center;
+    color: #148680;
+}
+
+#leftpanel_camp4 p {
+    font-size: 20px;
+    font-family: 'OpenSans Regular', serif;
+    text-align: center;
+}
+
+#option, #option2, #option3 {
+    height: 17px;
+    width: 17px;
+    vertical-align: middle;
+}
+#panelcamp1_options {
+    width: 300px;
+    line-height: 25px;
+    height: 207px;
+    margin-left: 10px;
+    float: left;
+}
+#panelcamp1_options p {
+    text-align: left;
+    font-family: 'Open Sans Regular', serif;
+    font-size: 14px;
+}
+.gralpanelcamp th, td {
+    width: 230px;
+    height: 100px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/*----------------------------------panel4*/
+#confirmline {
+    padding-left: 77px;
+    margin-top: 20px;
+    float: left;
+    width: 854px;
+    height: 30px;
+}
+#confirminfo {
+    margin-left: 17px;
+    width: 896px;
+    height: 30px;
+}
+.marginpconfirm {
+    margin-left: 42px;
+    float: left;
+    margin-top: 10px;
+}
+#firstpconfirm {
+    margin-left: 0px;
+    float: left;
+    margin-top: 10px;
+}
+.checkcircle {
+    padding: 5px;
+    float: left;
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    color: black;
+}
+.cline {
+    margin-top: 13px;
+    float: left;
+    height: 1px;
+    width: 160px;
+    background-color: black;
+}
+.xcircle {
+    padding: 5px 5px 5px 6px;
+    float: left;
+    background-color: white;
+    height: 15px;
+    width: 14px;
+    border: 1px solid red;
+    border-radius: 15px;
+    color: red;
+}
+.xline {
+    margin-top: 13px;
+    float: left;
+    height: 1px;
+    width: 160px;
+    background-color: red;
+}
+#listdetails {
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#listdetails th, td {
+    width: 230px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+#missinginfo {
+    height: 50px;
+    width: 915px;
+}
+.squareresults {
+    height: 20px;
+    width: 90px;
+    margin: 5px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    line-height: 20px;
+}
+#testpanel {
+    margin-top: 32px;
+    margin-left: 50px;
+    width: 315px;
+    float: left;
+    height: 150px;
+    background-color: #edf9f7;
+}
+#sendpanel{
+    float: left;
+    width: 890px;
+}
+#testinputcamp4{
+    width: 70%;
+}
+#confirmlineinfo{
+    height: 115px;
+}
+#testpanel button {
+    margin-left: 20px;
+    margin-top: 7px;
+}
+#testpanel p {
+    width: 270px;
+}
+#sendlabel {
+    width: 360px;
+}
+#labelsform2 label {
+    float:left;
+    line-height: 54px;
+    width: 360px;
+    clear: both;
+    text-align: right;
+    font-family: 'Open Sans Semibold', serif;
+}
+#sendpanel button {
+    margin-top: 10px;
+}
+#sendpanel input {
+    width:40%;
+}
+#sendpanel p {
+    width: 520px;
+    margin-left: -190px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------community*/
+#navbarcom ul {
+    font-family: 'Open Sans Semibold', serif;
+}
+#navbarcom ul .floatleft {
+    margin-left: 8%;
+}
+
+}
+#navbarcom ul .floatright {
+    margin-right: 200px;
+}
+#navbarcom li {
+    background: transparent;
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    float:left;
+    margin-left: 24%;
+}
+#navbarcom img {
+    width: 17%;
+    margin-right: 0%;
+    float: left;
+    position: relative;
+    top: 8px;
+}
+#navbarcom {
+    margin-right: 80px;
+    background: url(../images/patternbackground.png) repeat;
+    background-color: #343434;
+    width: 100%;
+    height:159px;
+    border-bottom: 10px solid #148680;
+}
+#circlenavcom {
+    top: 5px;
+    font-family: 'OpenSans Italic', serif;
+    float: left;
+    margin-left: 36%;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    background: #ccc;
+}
+#circlenavcom2 {
+    top: 5px;
+    font-family: 'OpenSans Italic', serif;
+    float: left;
+    margin-left: 290px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    background: #ccc;
+}
+#listleftbtncom {
+    float: left;
+    margin-left: 300px;
+}
+#listleftbtncom img {
+    width: 23%;
+}
+.input-group-addon {
+    padding: 8.7px;
+    border: 1px solid #ccc;
+    position: relative;
+    right: 6px;
+    top: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+#maincommunity input[type=text], select {
+    width: 550px;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#maincommunity form action_page.php {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    float:left;
+    width:605px;
+}
+#maincommunity img {
+    float: left;
+}
+#maincommunity {
+    padding: 30px 0px 100px 0px;
+}
+#bblinput {
+    float: left;
+    background-color: #fafafa;
+    border-radius: 50px;
+    width: 620px;
+    margin-top: 40px;
+    padding-top: 1px;
+    box-shadow: 7px 4px 9px #efefef;
+}
+.bbltextcom {
+    float: left;
+    width: 730px;
+    background-color: #fafafa;
+    border-radius: 20px;
+    width: 391px;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 20px 0px 20px 0px;
+    line-height: 25px;
+    box-shadow: 0px 0px 20px #cccccc;
+}
+.bbltextcom h1, p {
+    text-align: center;
+}
+.bbltextcom h1 {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 20px;
+}
+.bbltextcom p {
+    text-align: center;
+    font-family: 'Open Sans Regular', serif;
+}
+#bblstexts1 {
+    float:left;
+    margin-top: 40px;
+}
+
+/*-----------------request*/
+#labelsformrequest {
+    float: left;
+    margin-left: 90px;
+}
+#labelsformrequest label {
+    float:left;
+    line-height: 54px;
+    width: 167px;
+    clear: both;
+    text-align: right;
+    font-family: 'Open Sans Semibold', serif;
+}
+#formsrequest {
+    float: left;
+    margin-left: 10px;
+    width: 435px;
+    margin-left: 18px;
+}
+#mainprofile #h2request {
+    margin-bottom:60px;
+    font-family: 'Open Sans Regular', serif;
+    text-align: center;
+}
+#brequest {
+    clear: both;
+    float: left;
+    margin-top: 20px;
+    margin-left: 420px;
+}
+
+/*---------------------------------------------------sphere that contains steps in he banner of dashboard*/
+.oval {
+    width: 200px;
+    height: 36px;
+    background: #f1ddbd;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 20px;
+    margin: 40px 0 16px 0;
+}
+/*ovals from dashboard*/
+.minioval {
+    position: relative;
+    top:7px;
+    width: 73px;
+    height: 13px;
+    background: #c4b6a0;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 17px;
+    margin: 0 auto;
+}
+
+/*------------------------------------------------------------------------------------------------------------billing*/
+#navbarprof {
+    margin-right: 80px;
+    background: url(../images/patternbackground.png) repeat;
+    background-color: #343434;
+    width: 100%;
+    height:159px;
+    border-bottom: 10px solid #148680;
+}
+#billinginfopanel {
+    margin: 0 50px;
+    width: 93%;
+    float: left;
+    text-align: center;
+}
+#mainbilling {
+    padding: 70px 0 120px 0;
+}
+#homeiconmargin {
+    margin-left: 290px;
+}
+#circlemarginbil {
+    float: left;
+    padding-left: 13px;
+    width: 11px;
+    height: 23px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-left: 540px;
+    top: 9px;
+}
+#panelleft_bil {
+    width: 535px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    font-family: 'Open Sans Semibold', serif;
+    margin-top: 60px;
+}
+#panelright_bil {
+    width: 573px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    font-family: 'Open Sans Semibold', serif;
+    margin-top: 30px;
+}
+#billinginfopanel .forms {
+    width: 345px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+#btn_billingdrop {
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 345px;
+    color: #a9a9a9;
+    padding: 10px 0px 10px 20px;
+    text-align: left;
+}
+#btn_billingdrop .fa {
+    margin-left: 180px;
+}
+.dropdown-content {
+    width: 100%;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 0 12px 0px;
+    z-index: 1;
+    margin-top: -30px;
+}
+.dropdown-content p {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+.dropdown-content p:hover {
+    background-color: #ebebeb;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#linebil {
+    border: 1px solid #ebebeb;
+    height: 320px;
+    margin-left: 70px;
+    margin-top: 50px;
+    float: left;
+}
+#labelsform_bil label {
+    float:left;
+    line-height: 54px;
+    width: 150px;
+    clear: both;
+    text-align: right;
+}
+#labelsform_bil {
+    float: left;
+}
+#billinginfopanel button {
+    clear: both;
+    float: left;
+}
+#billinginfopanel .grey {
+    margin: 10px 0px 20px 0px;
+    margin-left: 520px;
+}
+#panelright_bil label {
+    margin-left: 10px;
+}
+#panelleft_bil h2 {
+    margin-bottom: 30px;
+    clear: both;
+}
+#panelright_bil h2 {
+    margin: 30px 0 30px 0;
+}
+#panelright_bil h3 {
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+#panelright_bil input {
+    margin: 4px 0px 30px 0px;
+}
+#forms_sec input {
+    float: left;
+    width: 140px;
+    margin: 0px 10px 0px 30px;
+}
+#forms_sec p {
+    float: left;
+    width: 140px;
+    margin: 0px 10px 0px 30px;
+}
+#panelright_bil label {
+    width: 100px;
+}
+#navbarbil {
+    margin-right: 80px;
+    background: url(../images/patternbackground.png) repeat;
+    background-color: #343434;
+    width: 100%;
+    height:159px;
+    border-bottom: 10px solid #148680;
+}
+#navbarbil img {
+    position: relative;
+    top: 5px;
+    width: 10%;
+    margin-right: 5%;
+}
+#navbarbil li {
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    margin-left: 17%;
+    width: 25%;
+}
+#circlesnavbil {
+    float:left;
+    margin-left: 80px;
+}
+
+/*------------------------------------------------------------------------------------------------------------Analytics*/
+
+/*#panelleft_ana{
+    height: 370px;
+    width: 585px;
+}*/
+#panelleft_ana {
+    width: 585px;
+    height: 190px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    font-family: 'Open Sans Semibold', serif;
+    margin-top: 60px;
+}
+#panelright_ana {
+    width: 562px;
+    height: 260px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    font-family: 'Open Sans Semibold', serif;
+    margin-top: 60px;
+    float: left;
+}
+#charts {
+    display:flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content: space-around;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 130px;
+}
+#lineana {
+    border: 1px solid #ebebeb;
+    height: 320px;
+    margin-left: 30px;
+    margin-top: 50px;
+    float: left;
+}
+#charts p {
+    font-size: 16px;
+    clear: both;
+    margin-top: 25px;
+    line-height: 0px;
+}
+.circlechart {
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border: 10px solid blue;
+    border-radius: 90px;
+}
+#tana {
+    margin-top: 90px;
+    margin-left: 90px;
+    width: 370px;
+}
+#tana tr {
+    border:1px solid #a5a9ac;
+    border-radius:50px;
+}
+#tana th {
+    padding: 0px 10px 5px 10px;
+}
+.anacirclebackground {
+    color: white;
+    background-color: #2d2d2d;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    line-height: 25px;
+    margin: 5px;
+}
+#listanalytics {
+    clear: both;
+    width: 1140px;
+    float: left;
+    margin: 30px 10px 30px 20px;
+}
+#listanalytics th, td {
+    width: 230px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+#mainanalytics {
+    padding: 70px 0 120px 0;
+}
+#analyticsinfopanel {
+    margin: 0 50px;
+    width: 93%;
+    float: left;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------------classes*/
+.pinkerror {
+    color: #ec247c;
+    font-size: 0.7em;
+    visibility: hidden;
+}
+/*error phrase in the bottom of fields*/
+.smalllabel {
+    color: black;
+    font-size: 0.7em;
+}
+.subline {
+    text-decoration: underline;
+}
+/*underlinein phrase*/
+.grey {
+    font-family: 'Open Sans Semibold', serif;
+    font-size: 1em;
+    background-color: #cccccc;
+    padding: 0px 25px 0px 25px;
+    border: 0.5px solid #ccc;
+    border-radius:20px;
+    text-align: center;
+    color: #47494d;
+    line-height: 41px;
+}
+/*button grey*/
+.bluelight {
+    font-family: 'Open Sans Semibold', serif;
+    font-size: 1em;
+    background-color: #07b396;
+    padding: 0px 25px 0px 25px;
+    border: 0.5px solid #07b396;
+    border-radius:20px;
+    text-align: center;
+    color: white;
+    line-height: 41px;
+}
+/*button bluelight*/
+.bluedark {
+    font-family: 'Open Sans Semibold', serif;
+    font-size: 1em;
+    background-color: #148680;
+    padding: 0px 25px 0px 25px;
+    border: 0.5px solid #148680;
+    border-radius:20px;
+    text-align: center;
+    color: white;
+    line-height: 41px;
+}
+/*button bluedark*/
+.btnblue {
+    font-family: 'Open Sans Semibold', serif;
+    font-size: 1em;
+    background-color: #0bb497;
+    height: 43px;
+    width: 155px;
+    border-radius:20px;
+    text-align: center;
+    color: white;
+    line-height: 41px;
+    margin-top: 55px;
+}
+.nocolorbtn {
+    font-family: 'Open Sans light', serif;
+    font-size: 1em;
+    background-color: #fbfbfb;
+    padding: 0px 25px 0px 25px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 41px;
+    border: 0.5px solid #ccc;
+    border-radius: 11px;
+}
+/*noback btn*/
+.displaynone {
+    display:none;
+}
+.displayinline {
+    display:inline;
+}
+.textpink {
+    color:#ec297b;
+}
+.textlightblue {
+    color:#07b396;
+}
+.textdarkblue {
+    color:#148680;
+}
+.textdarkgrey {
+    color:#a5a9ac;
+}
+.textmediumgrey {
+    color:#cccccc;
+}
+.textlightgrey {
+    color:#ebebeb;
+}
+.backgrey {
+    background-color: #ebebeb;
+    border-radius: 50px;
+    padding: 5px 40px 5px 40px;
+}
+.bubble1 {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    text-align: center;
+    line-height: 45px;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 10px 10px 104px #d8d8d8;
+}
+/*transparent conversational bubble*/
+.bubble2 {
+    font-family: 'Open Sans Semibold', serif;
+    float: right;
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1em;
+    line-height: 28px;
+    padding: 35px 35px 35px 35px;
+    box-shadow: 10px 10px 104px #d8d8d8;
+}
+.circlenavbeg {
+    position: relative;
+    top: 5px;
+    font-family: 'OpenSans Italic', serif;
+    float: left;
+    margin-left: 26%;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #ccc;
+}
+.circlenav {
+    position: relative;
+    top: 5px;
+    font-family: 'OpenSans Italic', serif;
+    float: left;
+    margin-left: 20%;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #ccc;
+}
+.circlenavprof {
+    float: left;
+    padding-left: 13px;
+    width: 11px;
+    height: 23px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-left: 270px;
+    top: 9px;
+}
+.btnnextback {
+    height: 50px;
+    width: 50px;
+    background-color: #ebebeb;
+    border-radius: 50px;
+}
+.profpgeneral {
+    font-family: 'Open Sans Regular', serif;
+    text-align: none;
+    margin-top: 30px;
+}
+.borderssides {
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    padding: 0px 80px 0 80px;
+}
+.btnnextbl {
+    background-color:#0bb497;
+    height: 45px;
+    padding:0px 25px 0px 25px;
+    line-height: 45px;
+    color: white;
+    border-radius: 20px;
+}
+.floatleft {
+    float:left;
+}
+.floatright {
+    float:right;
+}
+.dashedbox {
+    width: 40%;
+    border: 0.50px dashed #7d7e80;
+    border-radius: 10px;
+}
+/*    
+
+    dashedbox grey color thin*/
+.greythin {
+    margin-top: 30px;
+    font-family: 'Open Sans Regular', serif;
+    font-size: 1.5em;
+    color: #9c9c9c;
+    line-height: 50px;
+}
+/*font grey*/
+.border-blue {
+    margin-top: 15px;
+    font-family: 'Open Sans Regular', serif;
+    font-size: 1.5em;
+    color: #0bb497;
+    border: 1px solid #0bb497;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+/*box, blue border, specifc font size*/
+.maintittle {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 2em;
+    text-align: center;
+}
+/*titles from top of mainboxes*/
+.innermaintittle {
+    font-family: 'Open Sans Regular', serif;
+    font-size: 2em;
+    text-align: center;
+    clear: both;
+    margin-top: 40px;
+}
+/*titles from top of mainboxes*/
+.smltxt1 {
+    font-size: 10px;
+}
+.smlmedtxt1 {
+    font-size: 12.5px;
+}
+.medtxt1 {
+    font-size: 15px;
+}
+.bigtxt1 {
+    font-size: 20px;
+}
+.backlink {
+    font-family: 'Open Sans Semibold', serif;
+}
+
+/*-------------------colors branding*/
+
+/*
+
+BLACK: #2d2d2d;
+DARK BLUE: #148680;
+LIGHT BLUE: #07b396;
+PINK: #ec297b;
+DARK GREY: #a5a9ac;
+MEDIUM GREY: #cccccc;
+LIGHT GREY:#ebebeb;
+EXTRA LIGHT GREY:#fbfbfb;
+
+*/
+
+/*-------------------typefaces branding
+/*
+
+font-family: 'Open Sans Regular',serif;
+font-family: 'Open Sans Light',serif;
+font-family: 'Open Sans Semibold',serif;
+
+*/
+#wrapflex_dash{
+display:flex;
+align-content: space-around;    
+}
+
+/*-------------------tablet vertical 1024-600------------------------------------*/
+@media screen and (max-width: 1280px) {
+
+ /*-----footer------*/
+    footer {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        height: 45px;
+    }
+    #meeblogof {
+        margin-left: 35%;
+        float: left;
+    }
+    footer #copyrighttext {
+        float: left;
+    }
+    #maini {
+        height: 640px;
+    }
+    /*-----banner------*/
+    #navbar {
+    height: 89px;
+    }
+    nav {
+    margin-top: 29px;
+    }
+    .barhover {
+    top: 89px;
+    }
+    /*-----index------*/
+    #signuptext {
+        width: 40%;
+    }
+    #b1 {
+        margin-top: 29px;
+        margin-right: 43px;
+    }
+    #b2 {
+        margin-top: 215px;
+        margin-right: 260px;
+        width: 50%;
+    }
+    #b3 {
+        margin-top: 0px;
+        margin-right: 53px;
+    }
+    .bubble1 {
+        padding: 30px 30px 30px 30px;
+        margin-bottom:20px;
+    }
+    .bubble1 h1 {
+        font-size: 2.2em;
+    }
+    #signuppanel p {
+        margin-top: 20px;
+    }
+    /*-----signup------*/
+    #mainsign {
+    height: 640px;
+    }
+
+    #characterimg {
+    top: 45px;
+    }
+    #banner_signbtm button {
+        margin-left: 270px;
+    }
+    #banner_signbtm h3 {
+        margin-left: 30px;
+    }
+    #banner_signtop h1 {
+    margin-top: 68px;
+    }
+
+    #banner_signtop {
+    margin-left: 199px;
+    }
+    /*-----login------*/
+
+    #banner_signbtm_login button {
+        margin-left: 310px;
+    }
+    #banner_signbtm_login h3 {
+    margin-left: 70px;
+    }
+    #mainl {
+    height: 640px;
+    }
+    /*-----dashboard------*/
+    #maindash {
+    padding: 50px 0px 0px 0px;
+    }
+    #navbar li {
+        margin-left: 7%;
+    }
+    #campicon {
+        padding: 0 10px 0 50px;
+    }
+    #mesicon {
+        padding: 0px 10px 0 50px;
+    }
+    .gralpanel {
+    min-width: 83%;
+    min-height: 380px;
+    }
+    main {
+    min-height: 490px;
+    }
+
+    /*-----innerdashboards------*/
+    .innermaindash {
+    padding: 50px 0px 0px 0px;
+    }
+    #textareamedium{
+    display:inline;
+    }
+    #textareadesktop{
+    display:none;
+    }
+    .innermaindash #buttons {
+        margin: 200px 0 0 390px;
+    }
+    .innermaindash #buttonssolo {
+        margin: 200px 0 0 440px;
+    }
+    #innermaindashsb{
+        padding: 0px 0px 50px 0px;
+    }
+    #Totalpanel {
+        float: left;
+        margin-top: 10px;
+        font-family: 'Open Sans regular', serif;
+        height: 100px;
+        width: 100%;
+        background-color: #ebebeb;
+        padding-top: 30px;
+        text-align: center;
+    }
+    #innerlist {
+        width: 100%;
+        height: 540px;
+    }
+    #sbar input {
+        width: 386px;
+    }
+    #boxtittle {
+        width: 94%;
+    }
+    #tittlebox_innerlist {
+        margin-left: 402px;
+    }
+    #innerlist table {
+        width: 95%;
+    }
+    #innerlist th {
+        padding: 20px 40px 20px 40px;
+    }
+    #mainnextbackmes #btnnext {
+    margin-left: 1065px;
+    top: 50px;
+    }
+    #panelcamp1_options {
+        width: 450px;
+        margin-top: 5px;
+        height: 188px;
+        margin-left: 221px;
+        text-align: center;
+    }
+      #formscamp {
+    margin-left: 190px;
+    }
+    #mainnextbackcamp #btnnext {
+        margin-left: 925px;
+    }
+    #leftpanel_camp {
+        height: 670px;
+    }
+    #panelcamp1_options p {
+        text-align: center;
+        font-family: 'Open Sans Regular', serif;
+        font-size: 14px;
+    }
+    .nocolorbtn {
+        padding: 0px 15px 0px 15px;
+    }
+    #confirmline {
+        width: 100%;
+    }
+    .cline {
+        width: 137px;
+    }
+    .xline {
+        width: 100px;
+    }
+    .marginpconfirm {
+        margin-left: 30px;
+    }
+
+    #confirmline {
+        padding-left: 0px;
+    }
+    #confirminfo {
+        width: 100%;
+        font-size: 0.8em;
+    }
+    #listdetails {
+    margin-left: 30px;
+    float: left;
+    }
+    #testpanel {
+    width: 370px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 29px;
+    }
+    #confirmlineinfo{
+    width: 690px;
+    height: 100px;
+    margin-left: 130px;
+    }
+    #sendpanel{
+    margin-top: 40px;
+    margin-left: 150px;
+    float: left;
+    width: 650px;
+    height: 110px;
+    }
+    #missinginfo {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .gralpanelcamp .forms {
+        width: 295px;
+    }
+    input[type=text], select {
+        width: 94%;
+    }
+    #testpanel p {
+        width: 280px;
+    }
+    #testpanel button {
+        margin-left: 30px;
+        margin-top: 17px;
+        margin-right: 61px;
+    }
+    #labelsform2 label {
+        line-height: 24px;
+        margin-top: 7px;
+        width: 220px;
+    }
+    #sendpanel input {
+        width: 84%;
+    }
+    #sendpanel button {
+        margin-left: 0px;
+        margin-top: 8px;
+    }
+    #sendpanel p {
+        margin-top: 20px;
+    }
+    #circlemarginbil {
+        margin-left: 432px;
+        top: 14px;
+    }
+    #labelsform_bil label {
+        width: 107px;
+    }
+    #panelleft_bil {
+        width: 482px;
+    }
+    #linebil {
+        margin-left: 0px;
+    }
+    #forms_sec input[type=text], select {
+        width: 94%;
+    }
+    #panelright_bil {
+        width: 460px;
+    }
+    #panelright_bil label {
+        text-align: center;
+    }
+    #billinginfopanel .forms {
+        width: 325px;
+    }
+    #panelright_bil input[type=text], select {
+        width: 87%;
+        float: left;
+    }
+    #billinginfopanel .forms {
+        height: 70px;
+    }
+    #forms_sec p {
+        width: 110px;
+    }
+    #smallinputs input[type=text], select {
+        width: 24%;
+        float: left;
+    }
+    #billinginfopanel .grey {
+        margin-left: 400px;
+    }
+    #navbarbil {
+        height: 89px;
+    }
+    #mainbilling {
+        padding: 30px 0 10px 0;
+    }
+    #billinginfopanel {
+        margin: 0 80px;
+        padding-left: 60px;
+        width: 83%;
+    }
+    #navbarcom {
+        height: 89px;
+    }
+    #maincommunity {
+        padding: 30px 0px 20px 0px;
+    }
+    #bblstexts1 {
+        margin-top: 20px;
+    }
+    .bbltextcom {
+        width: 410px;
+    }
+    #supbar_user {
+        margin-top: 11px;
+    }
+    .circlenavprof {
+        margin-left: 270px;
+        top: 14px;
+    }
+    #panelright_ana {
+        width: 332px;
+    }
+    #tana {
+        margin-left: 20px;
+        width: 290px;
+    }
+    #listanalytics {
+        width: 910px;
+    }
+    #mainprofile {
+        height: 510px;
+        padding-top: 30px;
+    }
+    #mainprofile #h2request {
+        margin-bottom: 30px;
+    }
+    #profinfopanel {
+        height: 435px;
+    }
+    #navbarprof {
+        height: 93px;
+    }
+    #mainnextback #btnback {
+        margin-top: 230px;
+    }
+    #mainnextback #btnnext {
+        top: 230px;
+    }
+    #containerprof_img {
+        height: 290px;
+    }
+    #mobileimg {
+        height: 273px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #signuptext{
+        display:none;
+    }
+    #signuppanel {
+        padding: 42px 0 0px 83px;
+    }
+    #maini {
+        height: 610px;
+    }
+    #banner_signbtm {
+        margin-left: 122px;
+    }
+    #banner_signtop {
+        margin-left: 69px;
+    }
+    #banner_signbtm button {
+        margin-left: 200px;
+    }
+    .gralpanel p {
+        font-size: 13px;
+    }
+    .listicons img {
+        width: 120px;
+    }
+    .innermaindash #buttons {
+        margin: 200px 0 0 310px;
+    }
+    #mainnextbackmes #btnnext {
+        margin-left: 855px;
+    }
+    .innermaindash #buttonssolo {
+        margin: 200px 0 0 350px;
+    }
+    #leftpanel_camp{
+        display:none;
+    }
+    .bbltextcom {
+        width: 330px;
+        margin-left: 20px;
+        padding: 20px 15px 20px 15px;
+    }
+
+ }
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    #maini {
+        height: 1147px;
+        background-size: 100%;
+        background-position: 150px;
+    }
+    #banner_signtop {
+        margin-left: 179px;
+        margin-top: 160px;
+    }
+    #signuptext {
+        display: none;
+    }
+    #signuppanel p {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 10px;
+        padding: 30px;
+    }
+    #btnbluetablet {
+        display: inline;
+        margin-left: 100px;
+        margin-top: 50px;
+        float: left;
+    }
+    #btnbluedesktop {
+        display: none;
+    }
+    #mainsign {
+        height: 1147px;
+    }
+    #banner_signbtm button {
+        margin-top: 94px;
+        margin-left: 200px;
+    }
+    #banner_signbtm h3 {
+        margin-left: 68px;
+    }
+    #banner_signbtm {
+        padding: 220px 170px 150px 120px;
+        margin-left: 112px;
+    }
+    #signuplink {
+        margin-left: 160px;
+    }
+    #mainl {
+        height: 1147px;
+    }
+    #banner_signbtm_login {
+        padding: 220px 170px 150px 120px;
+        margin-left: 112px;
+    }
+    #banner_signbtm_login button {
+        margin-left: 220px;
+    }
+    #navbar li {
+        margin-left: 4%;
+    }
+    #s1tablet {
+        display: inline;
+        margin-top: 68px;
+        float: left;
+    }
+    #s1desktop {
+        display: none;
+    }
+    #s2tablet {
+        display: inline;
+        margin-top: 68px;
+        float: left;
+    }
+    #s2desktop {
+        display: none;
+    }
+    #s3tablet {
+        display: inline;
+        margin-top: 68px;
+        float: left;
+    }
+    #s3desktop {
+        display: none;
+    }
+    .oval {
+        display: none;
+    }
+    .listicons {
+    padding: 40px 50px 76px 130px;
+    height: 110px;
+    width: 520px;
+    }
+    .listicons img {
+    width: 120px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 10px;
+    }   
+    .greythin {
+        float: left;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .gralpanel {
+        margin-left: 4%;
+        padding: 30px 30px 60px 39px;
+        margin-top: 100px;
+    }
+    .innermaindash #buttons {
+        margin: 200px 0 0 280px;
+    }
+    .innermaindash {
+        padding: 70px 0px 100px 0px;
+    }
+    #boxtittle {
+        width: 93%;
+    }
+    #tittlebox_innerlist {
+        margin-left: 372px;
+    }
+    #innerlist {
+        height: 1050px;
+    }
+    #innerlist th {
+        padding: 20px 70px 20px 50px;
+    }
+    #innerlist table {
+        width: 94%;
+    }
+    #mainnextbackmes #btnnext {
+        margin-left: 820px;
+        top:210px;
+    }
+    .innermaindash #buttonssolo {
+        margin: 200px 0 0 340px;
+    }
+    .innermaindash {
+        padding: 70px 0px 64px 0px;
+    }
+    #textareadesktop {
+        display: none;
+    }
+    #textareatablet {
+        display: inline;
+    }
+    #leftpanel_camp {
+        display: none;
+    }
+    .gralpanelcamp {
+        padding: 30px 20px 50px 30px;
+        min-width: 860px;
+        margin: 190px 10px 110px 30px;
+    }
+    #mainnextbackcamp #btnnext {
+        margin-left: 859px;
+        top: 190px;
+    }
+    #panelcamp1_options {
+        width: 560px;
+        text-align: center;
+        margin-left: 160px;
+        margin-top: 40px;
+        clear: both;
+    }
+    #panelcamp1_options p {
+        text-align: center;
+    }
+    #formscamp {
+        margin-left: 110px;
+    }
+    #innermaindashana {
+        padding: 70px 0px 67px 0px;
+        width: 100%;
+    }
+    .innermaindash {
+       padding: 30px 0px 154px 0px;
+    }
+    #innermaindashcamp {
+        height: 920px;
+    }
+    #gralpanelcamp-4 {
+        padding: 30px 0px 50px 20px;
+        min-width: 897px;
+        margin: 70px 10px 110px 30px;
+    }
+    #leftpanel_camp4 {
+        display: none;
+    }
+    #testpanel {
+        margin: 20px 0px 20px 0px;
+        padding: 20px 0px 20px 0px;
+        height: 80px;
+    }
+    #labelsform label {
+        width: 207px;
+    }
+    #testpanel button {
+        margin-left: 230px;
+        margin-top: 30px;
+    }
+    #sendpanel input {
+        width: 83%;
+        margin-right: 20px;
+    }
+    #testinput {
+        width: 163%;
+    }
+    #sendpanel p {
+        width: 280px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    #sendpanel input {
+        width: 83%;
+        margin-right: 20px;
+    }
+    #sendpanel button {
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    .forms {
+        width: 50%;
+    }
+    #formscamp4 {
+        width: 30%;
+    }
+    .backgrey {
+        background-color: #ebebeb;
+        border-radius: 50px;
+        padding: 5px 40px 5px 40px;
+        margin-left: 310px;
+    }
+    #panelleft_ana {
+        width: 585px;
+        height: 270px;
+        padding: 0px 0px 10px 0px;
+        margin-left: 80px;
+    }
+    #panelleft_ana h2 {
+        width: 0px;
+        text-align: center;
+    }
+    #panelright_ana {
+        height: 210px;
+        margin-left: 71px;
+    }
+    #tana {
+        margin-top: 50px;
+        margin-left: 120px;
+        width: 530px;
+    }
+    #listanalytics {
+        width: 870px;
+    }
+    #lineana {
+        display: none;
+    }
+    #analyticsinfopanel {
+        padding: 20px 0px 70px 0px;
+    }
+    #analyticsinfopanel {
+        margin: 0 40px;
+    }
+    #maindash {
+        padding: 80px 0px 65px 0px;
+    }
+    #innermaindashsb {
+        padding: 0px 0px 415px 0px;
+    }
+    #innermaindashmes {
+        padding: 70px 0px 64px 0px;
+    }
+    #gralpanelcamp4{
+             margin: 20px;
+    }
+    #gralpanelcamp4 .forms {
+        width: 30%;
+    }
+    #mainbilling {
+        padding: 90px 0 150px 0;
+    } 
+    #billinginfopanel {
+        padding: 30px 0px 30px 160px;
+    }
+    #innersubtitle {
+        width: 540px;
+    }
+    #panelright_bil {
+        margin-left: 50px;
+        margin-top:0px;
+    }
+    #panelleft_bil {
+        margin-left: 40px;
+    }
+    #billinginfopanel {
+        margin: 0 50px;
+        padding: 0px 0px 0px 160px;
+        width: 73%;
+    }
+    #billinginfopanel .grey {
+        margin: 30px 0px 20px 190px;
+    }
+    #billinginfopanel .backgrey {
+        margin-left: 0px;
+    }
+    #linebil{
+        display:none;
+    }
+    #mainnextback #btnnext {
+        margin-left: 851px;
+        top: 200px;
+    }
+    #profinfopanel {
+        width: 900px;
+        min-height: 530px;
+    }
+    #mainnextback #btnback {
+        margin-left: 15px;
+    }
+    #mainprofile {
+        height: 805px;
+        padding-top: 240px;
+    }
+    #multiplebar {
+        margin-left: 29px;
+    }
+    #mainnextback {
+        width: 980px;
+    }
+    #supbar_user li {
+        padding: 0px 55px 0px 65px;
+    }
+    #containerprof_img {
+        width: 805px;
+    }
+    #supbar_user {
+        width: 803px;
+        margin-top: 40px;
+    }
+    #p2_team {
+        margin-left: 75px;
+    }
+    .circlenavprof {
+        margin-left: 195px;
+        top: 15px;
+    }
+    #profinfopanel table {
+        width: 825px;
+    }
+    #maincommunity img {
+        display:none;
+    }
+
+    #bblinput {
+        margin-left: 170px;
+    }
+    #maincommunity {
+        height: 1000px;
+    }
+    #navbarcom li {
+        margin-left: 14%;
+    }
+    #circlenavcom {
+        margin-left: 29%;
+    }
+    #circlenavcom2 {
+        margin-left: 250px;
+    }
+    .circlenav{
+        margin-left: 23%;
+    }
+    #wrapflex_dash {
+        display: inline
+    }
+    #innermaindashmes {
+        padding: 70px 0px 72px 0px;
+    }
+    #textareamedium{
+        display:none;
+    }
+    .innermaindash {
+        padding: 70px 0px 346px 0px;
+        min-height: 630px;
+    }
+    #innermaindashcamp {
+        height: 1050px;
+    }
+    .bbltextcom {
+        width: 400px;
+        height: 190px;
+        margin-left: 40px;
+        margin-top: 80px;
+        padding: 20px 15px 20px 15px;
+    }   
+    #listdetails {
+        margin-left: 220px;
+        float: left;
+    }
+    #testpanel {
+        margin: 20px 10px 20px 0px;
+        padding: 20px 0px 20px 0px;
+        height: 97px;
+        width: 860px;
+    }
+    #testinputcamp4 {
+        width: 83%;
+    }
+    #testpanel p {
+        width: 280px;
+    }
+    #testpanel button {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    #gralpanelcamp4 .forms {
+        width: 40%;
+    }
+    #sendpanel button {
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+    #sendpanel {
+        margin-left: 20px;
+    }
+}

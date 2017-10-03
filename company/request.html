@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<title>Meebler</title>
+	<meta name="description" content="Ireland Startup">
+	<meta name="keyword" content="Privacy, social networks">
+	<meta name="author" content="Steve">
+	<meta charset="UTF-8">
+	<!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://use.fontawesome.com/039810b1c2.js"></script>
+	
+</head>
+
+
+<body>
+
+<header> 
+<div id="topbar">
+				<a href="index.html" > <img id="meeblogo" src="images/meeblogo.png" alt="a logo image of Meebler in color">
+			</a>
+	<ul> 
+		
+		<li>
+			<a href="profile.html" > <img class="uicon" src="images/uicon.png" alt="user icon"> </a> 
+		</li>
+		<li>
+			<a href="community.html" > <img class="hicon"  src="images/hicon.png" alt="help icon"> </a> 
+		</li>
+		<li>
+			<a href="billing.html"> <img class="ciconl" src="images/cicon.png" alt="configuration icon"> </a>
+		</li> 
+	</ul>
+
+</div>		
+
+<div id="navbar">
+	<nav>
+		<ul> 
+		<li id="listleftbtncom"><a href="dashboard.html">HOME
+			<img src="images/listicon.png" alt="a logo image of Meebler in color"/>
+			</a>
+		</li>
+		<li class="floatleft"><a href="community.html">COMMUNITY
+			<img src="images/messageicon.png" alt="a logo image of Meebler in color"/>
+			</a>
+		</li>
+		<li class="floatleft"><a href="request.html">SUBMIT A REQUEST
+			<img src="images/campaignicon.png" alt="a logo image of Meebler in color"/>
+			</a>
+		</li>
+
+	</ul>
+
+	</nav>
+
+	<div> 
+		<div id ="circlenavcom"></div>
+		<div id ="circlenavcom2"></div>
+	</div>	
+</div>
+</header>
+
+
+<main id="mainprofile">
+<h1 class="maintittle">Submit a request</h1>
+<div id="profinfopanel" class="dashedbox">
+<h2 id="h2request"> Please fill up the form below to help you resolving any issue.</h2>
+
+	<form action="action_page.php">
+  		<div id="labelsformrequest">
+  			<label for="Uname">EMAIL</label>
+  			<label for="Ename">SUBJECT</label>
+  			<label for="Pname">DESCRIPTION</label>
+  			<label for="CPname">ATTACHMENT</label>
+  		</div>
+  		<div id="formsrequest">
+   
+    		<input type="text" placeholder="what's your email?" id="Uname" name="Username">
+    		<p class="pinkerror">*Email</p>
+		 	<input type="text" placeholder="what would you like as name of subject?" id="Ename" name="Email">
+		 	<p class="pinkerror">*Subject</p>
+   		   	<textarea name="message" rows="5" cols="53" type="text">Enter request's details. A member of our support staff will respond you ASAP</textarea>
+   		   	<p class="pinkerror">*Description</p>
+    		<input type="text" placeholder="+ Add files" id="CPname" name="Confirmpassword">
+ 
+		</div>
+
+  		<button type="button" id="brequest" class="grey" input type="submit" value="Submit" onclick="location.href='dashboard.html'" >Submit</button>
+  		</form>
+		
+
+</main>	
+	
+	
+	
+<footer>
+
+	<div> 
+	<img id="meeblogof" a href="#" src="images/meeblogo.png" alt="a logo image of Meebler in grayscale"/>
+	</div>
+	
+	<p id="copyrighttext">Copyright © 2016, Meebler
+	</p>
+	
+	
+</footer>
+	
+	
+	
+</body>
+</html>

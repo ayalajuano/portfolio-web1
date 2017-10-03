@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<title>Meebler</title>
+	<meta name="description" content="Ireland Startup">
+	<meta name="keyword" content="Privacy, social networks">
+	<meta name="author" content="Steve">
+	<meta charset="UTF-8">
+	<!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://use.fontawesome.com/039810b1c2.js"></script>
+	
+</head>
+
+
+<body>
+
+<header> 
+<div id="topbar">
+				<a href="index.html" > <img id="meeblogo" src="images/meeblogo.png" alt="a logo image of Meebler in color">
+			</a>
+	<ul> 
+		
+		<li>
+			<a href="profile.html" > <img class="uicon" src="images/uicon.png" alt="user icon"> </a> 
+		</li>
+		<li>
+			<a href="community.html" > <img class="hicon"  src="images/hicon.png" alt="help icon"> </a> 
+		</li>
+		<li>
+			<a href="billing.html"> <img class="ciconl" src="images/cicon.png" alt="configuration icon"> </a>
+		</li> 
+	</ul>
+
+</div>	
+<div id="navbarbil">
+	<nav>
+		<ul> 
+		<a href="dashboard.html"><li class="floatleft" ><img src="images/homeicon.png" id="homeiconbil" alt="an icon of an user"> HOME</li></a>
+		<a href='billing.html'><li class="floatleft"><img src="images/billingicon.png" alt="an icon of an user">BILLING</li></a>
+	
+	</ul>
+
+	</nav>
+
+	<div id="circlesnavbil"> 
+		<div id="circlemarginbil"></div>
+	</div>	
+</div>
+</header>
+
+
+<main id="mainbilling">
+<h1 class="maintittle">Billing</h1>
+<div id="billinginfopanel" class="dashedbox">
+<p id="innersubtitle"> Update your company address and billing preferences</p>
+
+	<div id="panelleft_bil">
+		<h2><span class="backgrey">COMPANY ADDRESS & TAX</span></h2>
+		
+  		<form action="action_page.php">
+  		<div id="labelsform_bil">
+  			<label for="Aname">ADDRESS</label>
+  			<label for="A2name">ADDRESS 2</label>
+  			<label id="Posname" class="floatleft" for="Cntyname">COUNTY</label> <label class="floatleft" for="Posname">POSTCODE</label>
+  			<label for="Cname">COUNTRY</label>
+  		</div>
+  		<div class="forms">
+   
+    		<input type="text" placeholder="Add an address"  name="Address">
+    		<p class="pinkerror">*Address</p>
+		 	<input type="text" placeholder="Add a second address" name="Address2">
+    		<p class="pinkerror">*Address</p>
+    		<input  type="text" placeholder="Add a county" name="County">
+    		<p class="pinkerror">*County</p>
+    		<input type="text" placeholder="Add a postcode"  name="Postcode">
+    		<p class="pinkerror">*Postcode</p>
+
+    		<div class="dropdown">
+    			<button type="button" id="btn_billingdrop">
+    			Select your country <i class="fa fa-caret-down" aria-hidden="true"></i>
+				</button>	
+    		<p class="pinkerror">*Country </p>
+			  	<div class="dropdown-content">
+			    	<a href="http://www.google.com"><p>Ireland</p></a>
+			    	<a href="http://www.google.com"><p>Venezuela</p></a>
+		  	</div>
+			</div>
+
+		</div>
+
+
+  		</form>
+
+
+
+	</div>
+
+	<div id="linebil"></div>
+
+	<div id="panelright_bil">
+		<h2><span class="backgrey">VAT NUMBER</span></h2>
+		<form action="action_page.php">
+  		<div id="labelsform_bil">
+  			<label for="Axname">AX</label>
+  	
+  		</div>
+	  		<div class="forms">
+	   
+	    		<input type="text" placeholder="write something here" id="Uname" name="Username">
+	    		<p class="pinkerror">*Username</p>
+			</div>
+
+		<h2><span class="backgrey">BILLING & CREDIT CARD</span></h2>
+		<h3> Update your card details.</h3>
+
+		<form action="action_page.php">
+  		<div id="forms_sec">
+   
+   			<p class="smalllabel">Expire month</p><p class="smalllabel">Expire year</p>	<p class="smalllabel">CVC</p>
+   			<div id="smallinputs">
+    		<input  type="text" placeholder="write something here" id="Uname" name="Username">
+    		<input  type="text" placeholder="write something here" id="Uname" name="Username">
+    		<input  type="text" placeholder="write something here" id="Uname" name="Username">
+    		</div>
+	</div>
+
+
+</div>
+
+<button type="button" class="grey" input type="submit" value="Submit" onclick="location.href='billing.html' ">UPDATE BILLING</button>
+
+
+</main>	
+	
+	
+	
+<footer>
+
+	<div> 
+	<img id="meeblogof" a href="#" src="images/meeblogo.png" alt="a logo image of Meebler in grayscale"/>
+	</div>
+	
+	<p id="copyrighttext">Copyright © 2016, Meebler
+	</p>
+	
+	
+</footer>
+	
+	
+	
+</body>
+</html>
